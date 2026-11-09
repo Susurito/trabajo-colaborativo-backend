@@ -184,9 +184,11 @@ def assign_report(
             specialty_id=report.specialty_id,
         )
     )
-    _record_status(db, report, actor, ReportStatusEnum.ASIGNADA, None)
+    if report.status != ReportStatusEnum.BLOQUEADA:
+        _record_status(db, report, actor, ReportStatusEnum.ASIGNADA, None)
     report.assignee_id = assignee.id
     report.assigned_at = assigned_at
+    report.updated_at = assigned_at
     db.add(report)
     _commit(db)
     db.refresh(report)
@@ -230,9 +232,6 @@ def _assert_transition(db: Session, report: Report, actor: User, target: ReportS
     if target == current:
         _conflict("La incidencia ya está en ese estado")
 
-    if target == ReportStatusEnum.ASIGNADA:
-        _conflict("El estado Asignada solo se alcanza mediante la asignación de un técnico")
-
     if current == ReportStatusEnum.BLOQUEADA:
         blocked = _latest_block(db, report.id)
         if blocked is None or target != blocked.from_status:
@@ -240,6 +239,9 @@ def _assert_transition(db: Session, report: Report, actor: User, target: ReportS
         if not (_is_assignee(report, actor) or actor.has_any_role(RoleEnum.RESPONSABLE_AREA)):
             _forbid()
         return
+
+    if target == ReportStatusEnum.ASIGNADA:
+        _conflict("El estado Asignada solo se alcanza mediante la asignación de un técnico")
 
     if target == ReportStatusEnum.VALIDADA:
         if current != ReportStatusEnum.REPORTADA:
