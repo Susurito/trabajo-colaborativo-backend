@@ -16,6 +16,10 @@ from app.models.specialty import Specialty  # noqa: F401
 from app.models.report_assignment import ReportAssignment  # noqa: F401
 from app.models.report_status_event import ReportStatusEvent  # noqa: F401
 from app.models.technical import Diagnosis, WorkLog  # noqa: F401
+from app.models.token import RefreshToken  # noqa: F401
+from app.models.comment import Comment, CommentMention  # noqa: F401
+from app.models.collaboration import ReportCollaboration  # noqa: F401
+from app.models.evidence import ReportEvidence  # noqa: F401
 
 config = context.config
 

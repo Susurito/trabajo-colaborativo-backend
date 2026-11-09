@@ -13,6 +13,7 @@ from app.routers import workflow as workflow_router
 
 
 from app.routers import workload as workload_router
+from app.routers import dashboard as dashboard_router
 
 
 def register_routers(app: FastAPI) -> None:
@@ -23,6 +24,12 @@ def register_routers(app: FastAPI) -> None:
     """
 
     app.include_router(workload_router.router, prefix="/workload", tags=["Workload"])
+
+    app.include_router(
+        dashboard_router.router,
+        prefix="/api/dashboard",
+        tags=["Dashboard"],
+    )
 
     app.include_router(
         auth_router.router,

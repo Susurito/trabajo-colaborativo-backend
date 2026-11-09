@@ -1,0 +1,294 @@
+[
+  {
+    "id": 7,
+    "folio": "reporte-d17b7037",
+    "title": "Cortocircuito y sobrecalentamiento en tomacorriente de pared",
+    "description": "El contacto eléctrico del módulo 4 en el laboratorio presentó chisporroteo y olor a quemado tras conectar equipo de cómputo. La tapa plástica quedó carbonizada y la línea perdió energía.",
+    "category": "electricidad",
+    "priority": "alta",
+    "status": "en_progreso",
+    "campus": "CU",
+    "faculty": "Facultad de Ciencias de la Computación",
+    "location": "Laboratorio de Cómputo 1",
+    "author": {
+      "id": 1,
+      "name": "Dariana",
+      "email": "dar@gmail.com"
+    },
+    "assignee": {
+      "id": 4,
+      "name": "Alan",
+      "email": "al@gmail.com"
+    },
+    "image": {
+      "local_filename": "incidencia_01_electricidad_contacto_quemado.jpg",
+      "local_url": "http://localhost:8000/uploads/reports/incidencia_01_electricidad_contacto_quemado.jpg",
+      "public_cdn_url": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&auto=format&fit=crop&q=80",
+      "caption": "Tomacorriente carbonizado y cableado expuesto en módulo norte",
+      "stage": "antes"
+    },
+    "work_note": "Se aisló el circuito en el centro de carga; en espera de reemplazo de placa y pastilla termomagnética."
+  },
+  {
+    "id": 8,
+    "folio": "reporte-9fe081e3",
+    "title": "Fuga continua en tubería de suministro de agua en sanitarios",
+    "description": "Se detectó fuga constante en la válvula y cople de la tubería principal bajo los lavamanos, generando encharcamiento en piso y riesgo de filtración al piso inferior.",
+    "category": "agua",
+    "priority": "alta",
+    "status": "asignada",
+    "campus": "CU",
+    "faculty": "Facultad de Ingeniería",
+    "location": "Cafetería FI",
+    "author": {
+      "id": 1,
+      "name": "Dariana",
+      "email": "dar@gmail.com"
+    },
+    "assignee": {
+      "id": 4,
+      "name": "Alan",
+      "email": "al@gmail.com"
+    },
+    "image": {
+      "local_filename": "incidencia_02_agua_tuberia_fuga.jpg",
+      "local_url": "http://localhost:8000/uploads/reports/incidencia_02_agua_tuberia_fuga.jpg",
+      "public_cdn_url": "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=800&auto=format&fit=crop&q=80",
+      "caption": "Fuga de agua activa en tubería y llave de paso sanitaria",
+      "stage": "antes"
+    },
+    "work_note": "Se cerró la llave de paso temporal. Se requiere cambio de niple y empaque de presión."
+  },
+  {
+    "id": 9,
+    "folio": "reporte-e7c07289",
+    "title": "Proyector interactivo no responde ni emite señal de video",
+    "description": "El proyector montado en el plafón del aula parpadea con indicador LED en rojo indicando falla en la lámpara óptica y no detecta entradas HDMI ni VGA.",
+    "category": "ti",
+    "priority": "media",
+    "status": "en_validacion",
+    "campus": "CU",
+    "faculty": "Facultad de Ciencias de la Computación",
+    "location": "Aula Magna FCC",
+    "author": {
+      "id": 1,
+      "name": "Dariana",
+      "email": "dar@gmail.com"
+    },
+    "assignee": {
+      "id": 4,
+      "name": "Alan",
+      "email": "al@gmail.com"
+    },
+    "image": {
+      "local_filename": "incidencia_03_ti_proyector_falla.jpg",
+      "local_url": "http://localhost:8000/uploads/reports/incidencia_03_ti_proyector_falla.jpg",
+      "public_cdn_url": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=800&auto=format&fit=crop&q=80",
+      "caption": "Proyector de techo con indicador de error de lámpara óptica",
+      "stage": "antes"
+    },
+    "work_note": "Se reemplazó lámpara de prueba; el equipo enciende y se encuentra en validación de horas de uso."
+  },
+  {
+    "id": 10,
+    "folio": "reporte-1d5b163a",
+    "title": "Butacas universitarias fracturadas y respaldos vencidos",
+    "description": "Ocho butacas en las filas traseras tienen el respaldo vencido y las paletas de escritura rotas con bordes filosos, representando riesgo de lesiones a estudiantes.",
+    "category": "mobiliario",
+    "priority": "baja",
+    "status": "reportada",
+    "campus": "CU",
+    "faculty": "Facultad de Ciencias Físico Matemáticas",
+    "location": "Aula 101 FCFM",
+    "author": {
+      "id": 1,
+      "name": "Dariana",
+      "email": "dar@gmail.com"
+    },
+    "assignee": null,
+    "image": {
+      "local_filename": "incidencia_04_mobiliario_butacas_rotas.jpg",
+      "local_url": "http://localhost:8000/uploads/reports/incidencia_04_mobiliario_butacas_rotas.jpg",
+      "public_cdn_url": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=800&auto=format&fit=crop&q=80",
+      "caption": "Conjunto de butacas con herrajes sueltos y paletas dañadas",
+      "stage": "antes"
+    },
+    "work_note": "Incidencia recibida y pendiente de catalogación por el área de almacén y carpintería."
+  },
+  {
+    "id": 11,
+    "folio": "reporte-4a87b1c6",
+    "title": "Goteo constante y condensación en equipo minisplit",
+    "description": "La unidad interior de aire acondicionado drena agua directamente sobre los escritorios de los docentes debido a posible obstrucción en la manguera de condensados.",
+    "category": "climatizacion",
+    "priority": "media",
+    "status": "en_progreso",
+    "campus": "CU",
+    "faculty": "Facultad de Ciencias de la Computación",
+    "location": "Sala de Maestros",
+    "author": {
+      "id": 1,
+      "name": "Dariana",
+      "email": "dar@gmail.com"
+    },
+    "assignee": {
+      "id": 4,
+      "name": "Alan",
+      "email": "al@gmail.com"
+    },
+    "image": {
+      "local_filename": "incidencia_05_climatizacion_minisplit_goteo.jpg",
+      "local_url": "http://localhost:8000/uploads/reports/incidencia_05_climatizacion_minisplit_goteo.jpg",
+      "public_cdn_url": "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=800&auto=format&fit=crop&q=80",
+      "caption": "Unidad de climatización evaporadora con escurrimiento en carcasa",
+      "stage": "antes"
+    },
+    "work_note": "Técnico realizando purga y desazolve de línea de desagüe de condensado."
+  },
+  {
+    "id": 12,
+    "folio": "reporte-8606d41d",
+    "title": "Desprendimiento de plafón y humedad en techo por lluvias",
+    "description": "Filtración pluvial en la azotea reblandeció los paneles de cielo falso en el pasillo norte, provocando la caída de material y exponiendo cableado de luminarias.",
+    "category": "infraestructura",
+    "priority": "alta",
+    "status": "validada",
+    "campus": "Campus Norte CAPU",
+    "faculty": "Facultad de Derecho y Ciencias Sociales",
+    "location": "Biblioteca FDCS",
+    "author": {
+      "id": 1,
+      "name": "Dariana",
+      "email": "dar@gmail.com"
+    },
+    "assignee": null,
+    "image": {
+      "local_filename": "incidencia_06_infraestructura_plafon_humedad.jpg",
+      "local_url": "http://localhost:8000/uploads/reports/incidencia_06_infraestructura_plafon_humedad.jpg",
+      "public_cdn_url": "https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&auto=format&fit=crop&q=80",
+      "caption": "Plafón desprendido con manchas de humedad y estructura metálica a la vista",
+      "stage": "antes"
+    },
+    "work_note": "Validada por infraestructura. Se acordonó la zona y se programó impermeabilización previa al remozamiento."
+  },
+  {
+    "id": 13,
+    "folio": "reporte-2e43f27f",
+    "title": "Cerradura digital y pestillo trabado en puerta de laboratorio",
+    "description": "La chapa de alta seguridad del laboratorio de física quedó atascada mecánicamente; no acciona con la tarjeta RFID ni con la llave maestra, impidiendo el ingreso seguro.",
+    "category": "seguridad",
+    "priority": "alta",
+    "status": "en_progreso",
+    "campus": "CU",
+    "faculty": "Facultad de Ciencias Físico Matemáticas",
+    "location": "Laboratorio de Física",
+    "author": {
+      "id": 1,
+      "name": "Dariana",
+      "email": "dar@gmail.com"
+    },
+    "assignee": {
+      "id": 4,
+      "name": "Alan",
+      "email": "al@gmail.com"
+    },
+    "image": {
+      "local_filename": "incidencia_07_seguridad_chapa_cerradura.jpg",
+      "local_url": "http://localhost:8000/uploads/reports/incidencia_07_seguridad_chapa_cerradura.jpg",
+      "public_cdn_url": "https://images.unsplash.com/photo-1558002038-1055907df827?w=800&auto=format&fit=crop&q=80",
+      "caption": "Cerradura de acceso y herraje de seguridad trabados",
+      "stage": "antes"
+    },
+    "work_note": "Personal técnico desarmó la caja del pestillo para sustituir el mecanismo cilíndrico averiado."
+  },
+  {
+    "id": 14,
+    "folio": "reporte-c89f6671",
+    "title": "Derrame de sustancia viscosa y acumulación de residuos",
+    "description": "Derrame accidental de aceite/lubricante en el corredor peatonal adyacente a la cafetería, creando un área resbalosa sin señalamientos de precaución.",
+    "category": "limpieza",
+    "priority": "media",
+    "status": "resuelta",
+    "campus": "CU",
+    "faculty": "Facultad de Ingeniería",
+    "location": "Cafetería FI",
+    "author": {
+      "id": 1,
+      "name": "Dariana",
+      "email": "dar@gmail.com"
+    },
+    "assignee": {
+      "id": 4,
+      "name": "Alan",
+      "email": "al@gmail.com"
+    },
+    "image": {
+      "local_filename": "incidencia_08_limpieza_derrame_piso.jpg",
+      "local_url": "http://localhost:8000/uploads/reports/incidencia_08_limpieza_derrame_piso.jpg",
+      "public_cdn_url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&auto=format&fit=crop&q=80",
+      "caption": "Área de piso intervenida con señalización preventiva y desengrasante",
+      "stage": "antes"
+    },
+    "work_note": "Se aplicó material absorbente, desengrasante industrial y lavado con agua a presión. Zona segura y habilitada."
+  },
+  {
+    "id": 15,
+    "folio": "reporte-90e1760d",
+    "title": "Punto de acceso WiFi (Access Point) sin sincronización de red",
+    "description": "El Access Point Cisco del área de cubículos parpadea en color ámbar y los usuarios no obtienen dirección IP por DHCP, dejando sin señal WiFi a docentes y alumnos.",
+    "category": "ti",
+    "priority": "media",
+    "status": "asignada",
+    "campus": "CU",
+    "faculty": "Facultad de Ciencias de la Computación",
+    "location": "Cubículos FCC",
+    "author": {
+      "id": 1,
+      "name": "Dariana",
+      "email": "dar@gmail.com"
+    },
+    "assignee": {
+      "id": 4,
+      "name": "Alan",
+      "email": "al@gmail.com"
+    },
+    "image": {
+      "local_filename": "incidencia_09_ti_access_point_wifi.jpg",
+      "local_url": "http://localhost:8000/uploads/reports/incidencia_09_ti_access_point_wifi.jpg",
+      "public_cdn_url": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=800&auto=format&fit=crop&q=80",
+      "caption": "Dispositivo inalámbrico AP montado en techo con cableado de parcheo UTP",
+      "stage": "antes"
+    },
+    "work_note": "Asignado a soporte de telecomunicaciones para revisión de puerto PoE en el switch de distribución."
+  },
+  {
+    "id": 16,
+    "folio": "reporte-5d090579",
+    "title": "Balastro magnético defectuoso y luminarias fluorescentes parpadeando",
+    "description": "Tres lámparas lineales en el taller de electrónica parpadean estroboscópicamente con zumbido constante y olor a barniz caliente, impidiendo el trabajo de precisión.",
+    "category": "electricidad",
+    "priority": "baja",
+    "status": "cerrada",
+    "campus": "CU",
+    "faculty": "Facultad de Ingeniería",
+    "location": "Taller de Electrónica",
+    "author": {
+      "id": 1,
+      "name": "Dariana",
+      "email": "dar@gmail.com"
+    },
+    "assignee": {
+      "id": 4,
+      "name": "Alan",
+      "email": "al@gmail.com"
+    },
+    "image": {
+      "local_filename": "incidencia_10_electricidad_luminaria_balastro.jpg",
+      "local_url": "http://localhost:8000/uploads/reports/incidencia_10_electricidad_luminaria_balastro.jpg",
+      "public_cdn_url": "https://images.unsplash.com/photo-1507499739999-097706ad8914?w=800&auto=format&fit=crop&q=80",
+      "caption": "Luminarias de techo reemplazadas y reconvertidas a tecnología LED",
+      "stage": "antes"
+    },
+    "work_note": "Se retiró balastro quemado y se instalaron 3 tubos LED de encendido directo. Reporte cerrado con visto bueno del docente."
+  }
+]
